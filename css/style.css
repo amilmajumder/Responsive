@@ -1,0 +1,744 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* Header part css */
+#header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #0f2f44;
+}
+
+.header-part h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header-part2 {
+    text-align: right;
+}
+
+.header-part2 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Navbar part css */
+.navbar {
+    padding: 0 0;
+}
+
+.bg {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    animation: menu 1s;
+}
+
+@keyframes menu {
+    from {
+        top: -105px
+    }
+
+    to {
+        top: 0px
+    }
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0f2f44;
+    transition: all linear .3s;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc712;
+    background: #fff9e6;
+}
+
+.dropdown-menu .dropdown-item {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0f2f44;
+    transition: all linear .3s;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.dropdown-menu {
+    padding: 0 0;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    color: #ffc712;
+    background: #fff9e6;
+}
+
+/* banner part css */
+#banner {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 142px;
+    padding-bottom: 142px;
+}
+
+.banner-item h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #0f2f44;
+    margin-bottom: -13px;
+    text-transform: capitalize;
+}
+
+.banner-item h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: -8px;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+
+.banner-item h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #8484bf;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+/*=============== typed css ==================*/
+.typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor {
+    opacity: 0;
+    display: none;
+}
+
+/*Custom cursor animation*/
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*=============== typed css ==================*/
+
+.banner-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-right: 55px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.banner-item button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background: #8484bf;
+    padding: 16px 20px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+}
+
+.banner-item a i {
+    margin-left: 20px;
+    background: #fff;
+    padding: 16px 18px;
+    border-radius: 50%;
+    color: #8484bf;
+    font-size: 17px;
+    line-height: 16px;
+    transition: all linear .3s;
+}
+
+.banner-item a i:hover {
+    color: #fff;
+    background: #8484bf;
+}
+
+/* about part css */
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-item h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.about-item h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+}
+
+.about-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+    padding-top: 16px;
+    line-height: 24px;
+}
+
+.about-list {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.abt-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0f2f44;
+    padding-bottom: 20px;
+}
+
+.about-main .button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0f2f44;
+    background: #fff;
+    padding: 14px 18px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px #ddd;
+    margin-right: 15px;
+}
+
+.about-main .active {
+    color: #0f2f44;
+    background: #ffc712;
+}
+
+.about-main button:hover {
+    background: #ffc712;
+}
+
+/* skill part css*/
+#skill {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skill-item {
+    text-align: right;
+}
+
+.skill-item h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.skill-item h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+}
+
+.skill-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+    padding-top: 16px;
+    line-height: 24px;
+}
+
+.img-bar {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.img-bar img {
+    background: #fff9e6;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px #ddd;
+}
+
+.txt span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.txt2 span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.txt3 span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.txt4 span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.name-txt span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.progress-main {
+    position: relative;
+    display: inline-flex;
+}
+
+.progress-main .txt {
+    position: absolute;
+    top: -25px;
+    left: 35px;
+}
+
+.progress-main .txt2 {
+    position: absolute;
+    top: -25px;
+    left: 55px;
+}
+
+.progress-main .txt3 {
+    position: absolute;
+    top: -25px;
+    left: 95px;
+}
+
+.progress-main .txt4 {
+    position: absolute;
+    top: -25px;
+    left: 75px;
+}
+
+.progress-main .name-txt {
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+
+.progress-bar {
+    width: 400px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.progress-line {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #2a4896;
+}
+
+.progress-line2 {
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #5d3b15;
+}
+
+.progress-line3 {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #344a1f;
+}
+
+.progress-line4 {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #392960;
+}
+
+
+/* service part css*/
+#service {
+    background: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service-main {
+    padding-top: 45px;
+    position: relative;
+    border-radius: 5px
+}
+
+.overlay {
+    position: absolute;
+    top: 44px;
+    left: -1px;
+    background: #0f2f44;
+    width: 100%;
+    height: 0%;
+    z-index: 9;
+    display: inline-block;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all linear .4s;
+}
+
+.service-main:hover .overlay {
+    opacity: 1;
+    height: 80%;
+}
+
+.overlay-cont {
+    position: relative;
+    top: 12%;
+    left: 0;
+    text-align: center
+}
+
+.overlay-cont h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 15px
+}
+
+.over-btn {
+    position: absolute;
+    top: 136%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.over-btn i {
+    background: #ffc712;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: all linear .6s;
+}
+
+.over-btn2 {
+    position: absolute;
+    top: 148%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.over-btn2 i {
+    background: #ffc712;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: all linear .6s;
+}
+
+.over-btn3 {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.over-btn3 i {
+    background: #ffc712;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: all linear .6s;
+}
+
+.service-img {
+    background: #e9e9e9;
+    padding: 55px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.service-img2 {
+    background: #e9e9e9;
+    padding: 59px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.service-img3 {
+    background: #e9e9e9;
+    padding: 52px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.service-txt {
+    background: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.service-txt h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #222222;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.service-txt p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400
+}
+
+.about-left h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+.about-left h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+}
+
+/* portfolio part css */
+#portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    color: #0f2f44;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.44);
+    padding: 16px 18px;
+    z-index: 1;
+    text-align: center;
+    transition: all linear .3s;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 37%;
+    color: #0f2f44;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.24);
+    padding: 16px 18px;
+    z-index: 1;
+    text-align: center;
+    transition: all linear .3s;
+}
+.left:hover{
+    background: #ffc712;
+}
+.right:hover{
+    background: #ffc712;
+}
+.port-itm{
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all linear .4s;
+    transform: scale(1);
+}
+.overlay2 {
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	top: 150px;
+	left: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.over-itm{
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    padding: 15px 0;
+    padding-bottom: 0;
+    transition: all linear .3s
+}
+.over-itm h4{
+     font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #0f2f44;
+    font-size: 20px;
+    text-transform: capitalize
+}
+.port-itm:hover .overlay2{
+    opacity: 1;
+	box-shadow: 20px 20px 15px #e1e1e1;
+}
+.port-itm:hover .over-itm{
+    height: 100%;
+}
+.port-itm:hover{
+    transform: scale(.95);
+}
+.port-btn{
+    margin-top: 70px;
+    
+}
+
+.port-btn a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #0f2f44;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background: #ffc712;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    box-shadow: 10px 10px 15px #fff5d5
+}
+.port-btn a:hover{
+    background: #ffffff;
+    box-shadow: 10px 10px 15px #e5e5e5
+}
